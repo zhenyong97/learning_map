@@ -204,7 +204,3 @@ if (index != -1)
 var notFound = names.IndexOf("Not Found");
   Console.WriteLine($"When an item is not found, IndexOf returns {notFound}");
 ```
-
-
-
-
