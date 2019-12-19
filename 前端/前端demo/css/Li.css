@@ -1,0 +1,91 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    /* padding-left: 40px; */
+    
+    background-image: url('..\\images\\fishnets-and-hearts.png');
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+    line-height: 2em;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-weight: 900;
+}
+
+.inlineform{
+    margin-top: 20px;
+}
+
+.inlineform h2{
+    text-align: center;
+}
+
+.nav-bar {
+    position: fixed;
+    margin-bottom: 30px;
+    top: 0;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 19px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active{
+    background-color: orange;
+}
+
+input {
+    height: 40px;
+    width: 500px;
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    box-shadow: 3px 5px orange  ;
+    border-style: solid;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-color: none;
+    border-width: 0;
+    background-color: blue;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 14px, 16px;
+    color: white;
+    margin-left: 222px;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: orange;
+    cursor: pointer;
+}

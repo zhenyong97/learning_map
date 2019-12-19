@@ -22,3 +22,30 @@ git remote add origin ....(git address)
 
 git 本地git 推送到云端master分支
 git push -u origin master
+
+
+
+-------------------------------
+
+### Start: 开始
+
+Task1： 从云端clone下来的空仓库
+
+```shell
+echo "# my_blog" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://xxxxxxxxxxxxxxxxxxxxxxxxx.git
+
+git push -u origin master
+```
+
+
+
+Task2：本地的git推送到云端的git
+
+```shell
+git remote add origin https://xxxxxxxxxxxxxxxxxxxxxxxxx.git
+git push -u origin maste
+```
