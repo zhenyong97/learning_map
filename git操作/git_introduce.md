@@ -9,6 +9,8 @@ git log 查看最近提交的信息
     * 本次提交的日期时间
     * 本次提交的commit的信息
 
+git rm --cached [filename] 让git停止追踪一个文件
+
 ----
 
 git 的配置
@@ -23,9 +25,27 @@ git remote add origin ....(git address)
 git 本地git 推送到云端master分支
 git push -u origin master
 
-
-
 -------------------------------
+
+添加.gitignore文件，里面的内容是git忽略的内容
+
+-------------------
+
+git 创建分支(平行世界)
+
+git branch [branch_name] 创建分支
+
+git checkout [branch_name]  切换分支
+
+git branch -d [branch_name] 删除分支 （-D 强制删除）
+
+
+
+git 合并分支 
+
+git merge [branch_name]  当前分支合并该分支[branch_name] 
+
+
 
 ### Start: 开始
 
@@ -40,8 +60,6 @@ git remote add origin https://xxxxxxxxxxxxxxxxxxxxxxxxx.git
 
 git push -u origin master
 ```
-
-
 
 Task2：本地的git推送到云端的git
 
