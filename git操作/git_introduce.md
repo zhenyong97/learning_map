@@ -39,11 +39,19 @@ git checkout [branch_name]  切换分支
 
 git branch -d [branch_name] 删除分支 （-D 强制删除）
 
-
-
 git 合并分支 
 
 git merge [branch_name]  当前分支合并该分支[branch_name] 
+
+---------------------
+
+git remote -v 查看本地git仓库挂靠的远端地址
+
+git remote rm origin 删除挂靠的远端地址
+
+git remote add origin [url] 修改远端地址
+
+git remote origin set-url [url] 直接修改远端地址
 
 
 
