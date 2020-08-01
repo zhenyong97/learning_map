@@ -39,6 +39,8 @@ git checkout [branch_name]  切换分支
 
 git branch -d [branch_name] 删除分支 （-D 强制删除）
 
+git push origin --delete [branch_name] 删除远端分支
+
 git 合并分支 
 
 git merge [branch_name]  当前分支合并该分支[branch_name] 
@@ -53,7 +55,36 @@ git remote add origin [url] 修改远端地址
 
 git remote origin set-url [url] 直接修改远端地址
 
+---------------------------
 
+git tag -l 查看本地tag
+
+git tag -d <tag_name>  删除本地tag
+
+git push --delete origin <tag__name> |  git push origin :refs/tags/<tag>  删除远端tag
+
+！提交云端上的tag都是基于上一次的commit，
+
+```git
+$:git init
+$:git add .
+$:git commit -m "xxxx"
+$:git tag v1
+$:git push origin master  # 推送分支，
+$:git push origin v1  # 创建v1分支，内容基于头一次的commit “xxxx”
+
+....
+$:git rm file  # 删除一个file
+$:git add .
+$:git commit -m "delete file"
+$:git tag v2
+$:git push origin master # 推送分支
+$:git push origin v2  # 创建v2分支，内容基于上一次的commit “delete file”
+```
+
+--------------
+
+git log --pretty=oneline 查看每一次commit的信息
 
 ### Start: 开始
 
