@@ -6,7 +6,7 @@
 
 * 打包/发布应用程序，包括系统环境，配置，依赖
 
-![](C:\Users\YONG\Desktop\dockervsvps.png)
+![](.\img\dockervsvps.png)
 
 docker 命令:
 
@@ -54,3 +54,8 @@ run 创建并运行一个容器（实例）；
 ```
 
 `docker exec -it dockerPG11 bash` 运行中的容器其实是一个功能完备的 Linux 操作系统，所以我们可以像常规的系统一样登录并访问容器
+
+-------------------------
+#### 安装RabbitMQ
+
+[提示网站](https://codeburst.io/get-started-with-rabbitmq-on-docker-4428d7f6e46b)
