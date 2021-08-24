@@ -1,3 +1,5 @@
+# Git 命令速查
+
 git init 初始化一个本地git仓库
 git status 查看当前git状态(是否有修改什么的)
 git add <filename> 添加某个文件到当前的git当中
