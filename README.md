@@ -1,3 +1,3 @@
-# learning_map
+# Zisc笔记
 
-笔记
+记录个人笔记文件
