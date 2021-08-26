@@ -16,8 +16,6 @@
 
      index --> database； type-->table
 
-
-
 使用rest的中的PUT|POST方法往里面添加内容，如: 
 
 `http://localhost:9200/imooc/course/1`

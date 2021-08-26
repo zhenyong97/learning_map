@@ -65,11 +65,7 @@ class GlobalSettings(object):
 class BaseSettings(object):
     enable_themes = True # 
     use_bootswatch = True
-     
+
 xadmin.site.register(xadmin.views.CommAdminView, GlobalSettings)
 xadmin.site.register(xadmin.views.BasedminView, BaseSettings)
 ```
-
-
-
-

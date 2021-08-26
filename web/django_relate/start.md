@@ -1,4 +1,6 @@
-django setting的配置
+# django setting的配置说明
+
+
 
 自定义STATIC路径
 

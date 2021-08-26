@@ -9,6 +9,7 @@
 --------------------
 
 创建视图的最简单方式就是基于单个表的全部内容
+
 ```sql
 CREATE VIEW CUSTOMERS_VIEW AS
 SELECT *
