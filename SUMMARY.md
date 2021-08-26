@@ -2,14 +2,13 @@
 
 * [主页](README.md)
 
-## Git技术
+## Git技术 <a id="git操作"></a>
+  * [1.1版本控制](git操作/1.1版本控制.md)
+  * [1.2基本理论](git操作/1.2Git基本理论核心.md)
+  * [1.3Git的配置](git操作/1.3Git的配置.md)
+  * [1.4命令速查](git操作/1.4Git命令速查.md)
 
-* [1.1版本控制](git操作/1.1版本控制.md)
-* [1.2基本理论](git操作/1.2Git基本理论核心.md)
-* [1.3Git的配置](git操作/1.3Git的配置.md)
-* [1.4命令速查](git操作/1.4Git命令速查.md)
-
-## WEB技术
+## WEB技术 <a id="web"></a>
 
 * [django](web/django_relate/django/README.md)
     * [django基础](web/django_relate/django_base/README.md)
